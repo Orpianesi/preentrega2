@@ -1,0 +1,41 @@
+.productos img{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    transition: 1s;
+}
+.productos img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.productos{
+    color: black;
+}
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(16,2,255);
+background: linear-gradient(90deg, rgba(16,2,255,1) 0%, rgba(52,63,177,0.785049053801208) 21%, rgba(251,95,81,0.8298669809720763) 51%, rgba(247,108,68,1) 100%, rgba(173,37,0,1) 1100%);
+}
+
+.informacion__titulo{
+    font-size: 40px;
+    font-style: normal;
+    color: black;
+    margin-bottom: 0px;
+}
+.informacion__contacto{
+    font-size: 20px;
+    font-style: normal;
+    color: #000000;
+    text-decoration: none; 
+}  
+footer section p{
+    font-size: 20px;
+    margin-top: 0px;
+    color: black;
+}
